@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/electron-userland/electron-builder/refs/heads/master/packages/app-builder-lib/scheme.json",
+  "appId": "com.test.temp",
+  "framework": "electron",
+  "asar": true,
+  "productName": "a",
+  "files": ["main/**/*"],
+  "mac": {
+    "target": ["dmg"],
+    "category": "public.app-category.utilities",
+    "artifactName": "${productName}-${os}-${arch}-${version}.${ext}",
+    "mergeASARs": true
+  },
+  "nsis": {
+    "perMachine": true
+  },
+  "extraMetadata": {
+    "productName": "a"
+  },
+  "asarUnpack": ["**/*.xsd"]
+}

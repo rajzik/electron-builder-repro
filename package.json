@@ -1,0 +1,22 @@
+{
+  "name": "electron-builder-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main/index.js",
+  "scripts": {
+    "build": "DEBUG=electron-builder electron-builder --config electron-builder.json --mac --universal -p never"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajzik/electron-builder-repro.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/rajzik/electron-builder-repro/issues"
+  },
+  "homepage": "https://github.com/rajzik/electron-builder-repro#readme",
+  "devDependencies": {
+    "electron": "^37.2.6",
+    "electron-builder": "^26.0.19"
+  }
+}

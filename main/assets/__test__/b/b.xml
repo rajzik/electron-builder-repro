@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-15" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="emergency_data_template.xsl" ?>
+<ns2:NFD_Document xmlns="http://a"
+    xmlns:ns2="http://a" xmlns:ns3="http://www.w3.org/2000/09/xmldsig#" NFD_Version="1.4.0">
+
+</ns2:NFD_Document>
