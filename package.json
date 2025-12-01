@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/rajzik/electron-builder-repro#readme",
   "devDependencies": {
-    "electron": "^37.2.6",
-    "electron-builder": "^26.0.19"
+    "electron": "^39.2.4",
+    "electron-builder": "^26.3.2"
   }
 }
